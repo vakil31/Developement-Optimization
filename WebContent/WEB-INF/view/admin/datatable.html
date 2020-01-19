@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Suffie | Suffice Responsive Admin Dashboard Template</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap -->
+    <link href="adminResources/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Custom styling plus plugins -->
+    <link rel="stylesheet" href="adminResources/css/main.css">
+    <link href="adminResources/css/ionicons.min.css" rel="stylesheet" />
+    <link href="adminResources/css/extra_colors.css" rel="stylesheet" />
+    <link href="adminResources/css/bootstrap-extra.css" rel="stylesheet" />
+    <!-- bootstrap-wysiwyg -->
+    <!-- <link href="../vendors/google-code-prettify/bin/prettify.min.css" rel="stylesheet"> -->
+    <!-- Font Awesome -->
+    <link href="adminResources/css/font-awesome.min.css" rel="stylesheet">
+    <!-- NProgress -->
+    <link href="adminResources/css/nprogress.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="wrapper">
+        <!-- Fixed navbar -->
+                <!-- Fixed navbar -->
+ 	<jsp:include page="header.jsp"></jsp:include>
+        <!-- Sidebar -->
+                <!-- Sidebar -->
+ 	<jsp:include page="menu.jsp"></jsp:include>
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <div class="container-fluid">
+                <div class="row">
+
+                    <div class="col-md-12">
+
+                        <h3> Data Tables</h3>
+
+                        <div class="table-responsive">
+                            <table id="example" class="table table-responsive table-striped  table-bordered" cellspacing="0" width="100%">
+                                <thead>
+                                    <tr>
+                                        <th>Order</th>
+                                        <th>Description</th>
+                                        <th>Deadline</th>
+                                        <th>Status</th>
+                                        <th>Progress</th>
+                                        <th>Amount</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>Alphabet puzzle</td>
+                                        <td>2016/01/15</td>
+                                        <td>Done</td>
+                                        <td>100%</td>
+                                        <td data-order="1000">€1.000,00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>Layout for poster</td>
+                                        <td>2016/01/31</td>
+                                        <td>Planned</td>
+                                        <td>23.599</td>
+                                        <td data-order="1834">€1.834,00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td>Image creation</td>
+                                        <td>2016/01/23</td>
+                                        <td>In progress</td>
+                                        <td>85.2 %</td>
+                                        <td data-order="1500">€1.500,00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>4</td>
+                                        <td>Create font</td>
+                                        <td>2016/02/26</td>
+                                        <td>Done</td>
+                                        <td>110.2%</td>
+                                        <td data-order="1200">€1.200,00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>5</td>
+                                        <td>Sticker production</td>
+                                        <td>2016/02/18</td>
+                                        <td>Planned</td>
+                                        <td>99 %</td>
+                                        <td data-order="2100">€2.100,00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>6</td>
+                                        <td>Glossy poster</td>
+                                        <td>2016/03/17</td>
+                                        <td>To Do</td>
+                                        <td>0%</td>
+                                        <td data-order="899">€899,00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>7</td>
+                                        <td>Beer label</td>
+                                        <td>2016/05/28</td>
+                                        <td>In progress</td>
+                                        <td>75%</td>
+                                        <td data-order="2499">€2.499,00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>8</td>
+                                        <td>Shop sign</td>
+                                        <td>2016/04/19</td>
+                                        <td>Offer</td>
+                                        <td>0%</td>
+                                        <td data-order="1099">€1.099,00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>9</td>
+                                        <td>X-Mas decoration</td>
+                                        <td>2016/10/31</td>
+                                        <td>Confirmed</td>
+                                        <td>0%</td>
+                                        <td data-order="1750">€1.750,00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>10</td>
+                                        <td>Halloween invite</td>
+                                        <td>2016/09/12</td>
+                                        <td>Planned</td>
+                                        <td>10%</td>
+                                        <td data-order="400">€400,00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>11</td>
+                                        <td>Wedding announcement</td>
+                                        <td>2016/07/09</td>
+                                        <td>In progress</td>
+                                        <td>45%</td>
+                                        <td data-order="299">€299,00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>12</td>
+                                        <td>Member pasport</td>
+                                        <td>2016/06/22</td>
+                                        <td>Offer</td>
+                                        <td>0%</td>
+                                        <td data-order="149">€149,00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>13</td>
+                                        <td>Drink tickets</td>
+                                        <td>2016/11/01</td>
+                                        <td>Confirmed</td>
+                                        <td>0%</td>
+                                        <td data-order="199">€199,00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>14</td>
+                                        <td>Album cover</td>
+                                        <td>2017/03/15</td>
+                                        <td>To Do</td>
+                                        <td>0%</td>
+                                        <td data-order="4999">€4.999,00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>15</td>
+                                        <td>Shipment box</td>
+                                        <td>2017/02/08</td>
+                                        <td>Offer</td>
+                                        <td>0%</td>
+                                        <td data-order="1399">€1.399,00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>16</td>
+                                        <td>Wooden puzzle</td>
+                                        <td>2017/01/11</td>
+                                        <td>Done</td>
+                                        <td>100%</td>
+                                        <td data-order="1000">€1.000,00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>17</td>
+                                        <td>Fashion Layout</td>
+                                        <td>2016/01/30</td>
+                                        <td>Planned</td>
+                                        <td>10%</td>
+                                        <td data-order="1834">€1.834,00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>18</td>
+                                        <td>Toy creation</td>
+                                        <td>2016/01/10</td>
+                                        <td>To Do</td>
+                                        <td>0%</td>
+                                        <td data-order="1550">€1.550,00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>19</td>
+                                        <td>Create stamps</td>
+                                        <td>2016/02/26</td>
+                                        <td>Done</td>
+                                        <td>100%</td>
+                                        <td data-order="1220">€1.220,00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>20</td>
+                                        <td>Sticker design</td>
+                                        <td>2017/02/18</td>
+                                        <td>Planned</td>
+                                        <td>10%</td>
+                                        <td data-order="2100">€2.100,00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>21</td>
+                                        <td>Poster rock concert</td>
+                                        <td>2017/04/17</td>
+                                        <td>To Do</td>
+                                        <td>0%</td>
+                                        <td data-order="899">€899,00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>22</td>
+                                        <td>Wine label</td>
+                                        <td>2017/05/28</td>
+                                        <td>Confirmed</td>
+                                        <td>0%</td>
+                                        <td data-order="2799">€2.799,00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>23</td>
+                                        <td>Shopping bag</td>
+                                        <td>2017/04/19</td>
+                                        <td>Offer</td>
+                                        <td>0%</td>
+                                        <td data-order="1299">€1.299,00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>24</td>
+                                        <td>Decoration for Easter</td>
+                                        <td>2017/10/31</td>
+                                        <td>Confirmed</td>
+                                        <td>0%</td>
+                                        <td data-order="1650">€1.650,00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>25</td>
+                                        <td>Saint Nicolas colorbook</td>
+                                        <td>2017/09/12</td>
+                                        <td>Planned</td>
+                                        <td>10%</td>
+                                        <td data-order="510">€510,00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>26</td>
+                                        <td>Wedding invites</td>
+                                        <td>2017/07/09</td>
+                                        <td>To Do</td>
+                                        <td>0%</td>
+                                        <td data-order="399">€399,00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>27</td>
+                                        <td>Member pasport</td>
+                                        <td>2017/06/22</td>
+                                        <td>Offer</td>
+                                        <td>0%</td>
+                                        <td data-order="249">€249,00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>28</td>
+                                        <td>Drink tickets</td>
+                                        <td>2017/11/01</td>
+                                        <td>Confirmed</td>
+                                        <td>0%</td>
+                                        <td data-order="199">€199,00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>29</td>
+                                        <td>Blue-Ray cover</td>
+                                        <td>2018/03/15</td>
+                                        <td>To Do</td>
+                                        <td>0%</td>
+                                        <td data-order="1999">€1.999,00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>30</td>
+                                        <td>TV carton</td>
+                                        <td>2019/02/08</td>
+                                        <td>Offer</td>
+                                        <td>0%</td>
+                                        <td data-order="1369">€1.369,00</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="panel">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">Striped rows</h3>
+                                <div class="right">
+                                    <a class="btn-toggle-collapse"><i class="fa fa-chevron-up"></i></a>
+                                    <a class="btn-remove"><i class="fa fa-close"></i></a>
+                                    <div class="clearfix"></div>
+                                </div>
+                            </div>
+                            <div class="panel-body">
+                                <table class="table table-striped">
+                                    <thead>
+                                        <tr>
+                                            <th>#</th>
+                                            <th>First Name</th>
+                                            <th>Last Name</th>
+                                            <th>Username</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th scope="row">1</th>
+                                            <td>Mark</td>
+                                            <td>Otto</td>
+                                            <td>@mdo</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">2</th>
+                                            <td>Jacob</td>
+                                            <td>Thornton</td>
+                                            <td>@fat</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">3</th>
+                                            <td>Larry</td>
+                                            <td>the Bird</td>
+                                            <td>@twitter</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="panel">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">Bordered rows</h3>
+                                <div class="right">
+                                    <a class="btn-toggle-collapse"><i class="fa fa-chevron-up"></i></a>
+                                    <a class="btn-remove"><i class="fa fa-close"></i></a>
+                                    <div class="clearfix"></div>
+                                </div>
+                            </div>
+                            <div class="panel-body">
+                                <table class="table table-bordered">
+                                    <thead>
+                                        <tr>
+                                            <th>#</th>
+                                            <th>First Name</th>
+                                            <th>Last Name</th>
+                                            <th>Username</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th scope="row">1</th>
+                                            <td>Mark</td>
+                                            <td>Otto</td>
+                                            <td>@mdo</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">2</th>
+                                            <td>Mark</td>
+                                            <td>Otto</td>
+                                            <td>@Bootstrap</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">3</th>
+                                            <td>Jacob</td>
+                                            <td>Thornton</td>
+                                            <td>@fat</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">4</th>
+                                            <td colspan="2">Larry the Bird</td>
+                                            <td>@twitter</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- /page content -->
+    </div>
+    <script src="adminResources/js/jquery.min.js"></script>
+
+    <script src="adminResources/js/bootstrap.min.js"></script>
+    <!-- FastClick -->
+    <script src="adminResources/fastclick.js"></script>
+
+
+
+    <!-- jquery.dataTables -->
+    <script src="adminResources/js/jquery.dataTables.min.js"></script>
+    <!-- bootstrap-wysiwyg -->
+    <script src="adminResources/js/bootstrap-wysiwyg.min.js"></script>
+    <script src="adminResources/js/jquery.hotkeys.js"></script>
+    <script src="adminResources/js/prettify.js"></script>
+    <!-- bootstrap-wysiwyg -->
+
+    <!-- jquery.dataTables -->
+    <script src="adminResources/js/jquery.dataTables.min.js"></script>
+    <script src='adminResources/js/dataTables.buttons.min.js'></script>
+    <script src='adminResources/js/buttons.colVis.min.js'></script>
+    <script src='adminResources/js/buttons.html5.min.js'></script>
+    <script src='adminResources/js/buttons.print.min.js'></script>
+    <script src='adminResources/js/dataTables.bootstrap.min.js'></script>
+    <script src='adminResources/js/buttons.bootstrap.min.js'></script>
+    <script src='adminResources/js/jszip.min.js'></script>
+    <script src='adminResources/js/vfs_fonts.js'></script>
+    <script src='adminResources/js/pdfmake.min.js'></script>
+
+    <script src="adminResources/js/main.js"></script>
+
+    <script>
+          $(document).on("ready",function() {
+            // DataTable initialisation
+            $('#example').DataTable({
+                dom: 'Bfrtip',
+                "paging": true,
+                "autoWidth": true,
+                "buttons": [
+                    'colvis',
+                    'copyHtml5',
+                    'csvHtml5',
+                    'excelHtml5',
+                    'pdfHtml5',
+                    'print'
+                ]
+            });
+        });
+
+    </script>
+</body>
+
+</html>
